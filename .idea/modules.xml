@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/ddd-demo.iml" filepath="$PROJECT_DIR$/.idea/ddd-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/application/ddd-demo-application.iml" filepath="$PROJECT_DIR$/app/application/ddd-demo-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/bootstrap/ddd-demo-bootstrap.iml" filepath="$PROJECT_DIR$/app/bootstrap/ddd-demo-bootstrap.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/domain/ddd-demo-domain.iml" filepath="$PROJECT_DIR$/app/domain/ddd-demo-domain.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/facade/ddd-demo-facade.iml" filepath="$PROJECT_DIR$/app/facade/ddd-demo-facade.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/infrastructure/ddd-demo-infrastructure.iml" filepath="$PROJECT_DIR$/app/infrastructure/ddd-demo-infrastructure.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/types/ddd-demo-types.iml" filepath="$PROJECT_DIR$/app/types/ddd-demo-types.iml" />
+    </modules>
+  </component>
+</project>

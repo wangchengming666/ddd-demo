@@ -4,7 +4,6 @@
  */
 package org.chengming.demo.application.assembler;
 
-import org.chengming.demo.application.BaseDTOAssembler;
 import org.chengming.demo.domain.common.model.student.model.aggregate.Student;
 import org.chengming.demo.domain.common.model.student.model.valobj.StudentId;
 import org.chengming.demo.facade.dto.student.StudentInfo;

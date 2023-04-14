@@ -16,6 +16,7 @@
         <module>app/facade</module>
         <module>app/infrastructure</module>
         <module>app/types</module>
+        <module>app/web</module>
     </modules>
     <properties>
         <java.version>1.8</java.version>
@@ -66,6 +67,12 @@
                 <groupId>org.chengming.demo</groupId>
                 <artifactId>ddd-demo-types</artifactId>
                 <version>${types.version}</version>
+            </dependency>
+
+            <dependency>
+                <groupId>org.chengming.demo</groupId>
+                <artifactId>ddd-demo-web</artifactId>
+                <version>0.0.1-SNAPSHOT</version>
             </dependency>
 
             <!-- module end -->

@@ -11,10 +11,6 @@ import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
-/**
- * @author keshi.ys
- * @version $Id: StudentController.java, v 0.1 2023-04-13 20:42 keshi.ys Exp $$
- */
 @RestController
 @RequestMapping("/wapi/student")
 public class StudentController {
@@ -23,7 +19,7 @@ public class StudentController {
     private StudentService studentService;
 
     @GetMapping("/getStudentById")
-    public StudentInfo getStudentById(@RequestParam String id){
+    public StudentInfo getStudentById(@RequestParam String id) {
         return studentService.getStudentById(id);
     }
 

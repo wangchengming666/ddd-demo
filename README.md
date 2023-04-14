@@ -78,8 +78,8 @@ Entity、Data Object (DO) 和 Data Transfer Object (DTO) 3种模型的区别：
 在贫血模型里，通常见到的代码是一个模型通过手动 new 出来之后，由调用方一个参数一个参数的赋值，这就很容易产生遗漏，导致实体状态不一致。
 
 所以 DDD 里实体创建的方法有两种：
-[√]  constructor 参数要包含所有必要属性，或者在 constructor 里有合理的默认值；
-[√]  使用 Factory 模式来降低调用方复杂度；
+- constructor 参数要包含所有必要属性，或者在 constructor 里有合理的默认值；
+- 使用 Factory 模式来降低调用方复杂度；
 
 ### 值对象（Value Object）、DP（Domain Primitive）
 在 DDD 中，Value Object 这个概念已经存在：

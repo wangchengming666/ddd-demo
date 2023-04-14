@@ -10,15 +10,15 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>ddd-demo-bootstrap</artifactId>
+    <artifactId>ddd-demo-web</artifactId>
     <version>0.0.1-SNAPSHOT</version>
 
-    <dependencies>
+    <properties>
+        <maven.compiler.source>8</maven.compiler.source>
+        <maven.compiler.target>8</maven.compiler.target>
+    </properties>
 
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter</artifactId>
-        </dependency>
+    <dependencies>
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
@@ -30,17 +30,7 @@
             <artifactId>ddd-demo-application</artifactId>
         </dependency>
 
-        <dependency>
-            <groupId>org.chengming.demo</groupId>
-            <artifactId>ddd-demo-infrastructure</artifactId>
-        </dependency>
-
-        <dependency>
-            <groupId>org.chengming.demo</groupId>
-            <artifactId>ddd-demo-web</artifactId>
-        </dependency>
-
-
     </dependencies>
+
 
 </project>
